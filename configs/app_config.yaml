@@ -1,0 +1,22 @@
+app:
+  name: "Finance & Supply Chain Copilot"
+  description: "AI-powered decision support for finance and supply chain analysis."
+  default_ticker: "NVDA"
+
+rag:
+  chunk_size: 1000
+  chunk_overlap: 150
+  top_k: 5
+  collection_name: "financial_reports"
+
+finance:
+  default_history_period: "6mo"
+  default_history_interval: "1d"
+
+alerts:
+  enabled: true
+  check_mode: "manual"
+
+ui:
+  page_icon: ":bar_chart:"
+  layout: "wide"

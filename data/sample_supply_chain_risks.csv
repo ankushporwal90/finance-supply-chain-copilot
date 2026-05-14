@@ -1,0 +1,4 @@
+company,risk_category,example_signal,business_impact
+ExampleCo,supplier concentration,Single supplier mentioned for critical components,Production disruption risk
+ExampleCo,logistics disruption,Freight delays and port congestion referenced,Higher lead times and working capital pressure
+ExampleCo,inventory pressure,Inventory write-downs increased,Potential demand forecasting or obsolescence issue
